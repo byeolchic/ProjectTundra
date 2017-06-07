@@ -1,0 +1,5 @@
+v1 - Initial version
+
+V2 - Added a version of the character without the hat.
+
+v3 - Added cross pendant to version without hat
