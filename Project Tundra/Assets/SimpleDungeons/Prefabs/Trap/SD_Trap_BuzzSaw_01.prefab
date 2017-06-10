@@ -10,7 +10,8 @@ GameObject:
   - component: {fileID: 477738}
   - component: {fileID: 3398428}
   - component: {fileID: 2310650}
-  m_Layer: 0
+  - component: {fileID: 111176876858929550}
+  m_Layer: 9
   m_Name: BuzzSaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +29,7 @@ GameObject:
   - component: {fileID: 3345118}
   - component: {fileID: 2329242}
   - component: {fileID: 9539156}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SD_Trap_BuzzSaw_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,27 +42,27 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149650}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: -16.944925, y: 0.04, z: -53.39979}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 477738}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180.00002, z: 0}
 --- !u!4 &477738
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 132218}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.4471254, y: 0, z: 0}
+  m_LocalRotation: {x: 0.0000015272544, y: 3.637979e-12, z: -0.2588185, w: 0.96592605}
+  m_LocalPosition: {x: -2.4471254, y: -0.00000022351742, z: 0.0000008186471}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 417502}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -30.000002}
 --- !u!23 &2310650
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -149,7 +150,7 @@ Animator:
   m_GameObject: {fileID: 149650}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 6bfffd5b4b4518349842ba99ba9b14ca, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 746fbb02deea4064a91593e25a695d6d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -168,3 +169,17 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 149650}
   m_IsPrefabParent: 1
+--- !u!111 &111176876858929550
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132218}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
