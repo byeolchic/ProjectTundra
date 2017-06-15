@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3398428}
   - component: {fileID: 2310650}
   - component: {fileID: 111176876858929550}
+  - component: {fileID: 65270335905270356}
   m_Layer: 9
   m_Name: BuzzSaw
   m_TagString: Untagged
@@ -169,6 +170,18 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 149650}
   m_IsPrefabParent: 1
+--- !u!65 &65270335905270356
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132218}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.370789, y: 3.3707886, z: 0.22}
+  m_Center: {x: 0.0000007748604, y: -0.00000071525574, z: -5.421011e-20}
 --- !u!111 &111176876858929550
 Animation:
   m_ObjectHideFlags: 1
